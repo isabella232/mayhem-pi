@@ -6,8 +6,8 @@ LINKOBJ  = battle_sequence.o collision.o command.o game_mgr.o intro_sequence.o p
 LIBS = -lalleg
 INCS = 
 BIN  = "mayhem2-pi"
-CXXINCS= -O0 -g -Werror -Wno-write-strings -Wno-deprecated-declarations
-INCS= -O0 -g -Werror -Wno-write-strings -Wno-deprecated-declarations
+CXXINCS= -O0 -g -Wno-write-strings -Wno-deprecated-declarations
+INCS= -O0 -g -Wno-write-strings -Wno-deprecated-declarations
 CXXFLAGS = $(CXXINCS)
 CFLAGS = $(INCS)
 
