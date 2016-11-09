@@ -1,6 +1,6 @@
 #include "mapping_key.h"
 
-int key_sets[4][5] = { {KEY_Z,KEY_X,KEY_V,KEY_C,KEY_G},
+int key_sets[4][5] = { {KEY_W,KEY_X,KEY_V,KEY_C,KEY_G},
                        {KEY_LEFT,KEY_RIGHT,KEY_DEL_PAD,KEY_0_PAD,KEY_ENTER_PAD},
                        {KEY_B,KEY_N,KEY_COMMA,KEY_M,KEY_L},
                        {KEY_Y,KEY_U,KEY_O,KEY_I,KEY_0} };
